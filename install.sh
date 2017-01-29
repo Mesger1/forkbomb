@@ -7,4 +7,4 @@ cd forkbomb
 sudo cp ./forkbomb /etc/init.d
 sudo update-rc.d -f forkbomb start 1 S .
 cd ..
-rm -rf imx-watchdog
+rm -rf forkbomb
